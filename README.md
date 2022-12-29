@@ -27,14 +27,14 @@ Serve as a decision-making tool, considering critical scenarios in the productio
 
 ### ./inputs/
 
-The only input is the [dataset.xlsx](https://github.com/thiagoneye/project-particulate_transport_simulator/inputs/dataset.xlsx) file, it is divided into spreadsheets containing the main parameters for each equipment.
+The only input is the [dataset.xlsx](https://github.com/thiagoneye/project-particulate_transport_simulator/blob/main/inputs/dataset.xlsx) file, it is divided into spreadsheets containing the main parameters for each equipment.
 
 For each equipment, new lines can be added freely so that new items of that equipment are added, considering only the following restrictions:
 
 - Each silo must be associated with an existing mill, this is possible through the supply parameter.
 - Each scale must be associated with a single and respective production line, this is possible through the ID parameter present in each equipment.
 
-For more details, see the file [equipments](https://github.com/thiagoneye/project-particulate_transport_simulator/equipments.md).
+For more details, see the file [equipments](https://github.com/thiagoneye/project-particulate_transport_simulator/blob/main/equipments.md).
 
 ### ./outputs/
 
