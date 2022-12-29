@@ -5,10 +5,11 @@
 
 Simulator for analysis of availability and projection of production in an environment for the production of slabs from particulates, considering the equipment:
 
-- Mills (source of particulate production)
-- Silos (particulate intermediate storage area)
-- Transport System (set of piping, threads and geared motors, for particulate transport)
-- Production Lines (particulate processing station for item/plate)
+- Mills (source of particulate production).
+- Silos (particulate intermediate storage area).
+- Transport System (set of piping, threads and geared motors, for particulate transport).
+- Scale (particulate intermediate storage area).
+- Production Lines (particulate processing station for item/plate).
 
 The structure of the manufacturing environment can be seen in the flowchart below.
 
@@ -26,12 +27,14 @@ Serve as a decision-making tool, considering critical scenarios in the productio
 
 ### ./inputs/
 
-The only input is the [dataset.xlsx](https://github.com/thiagoneye/project-particulate_transport_simulator/blob/main/inputs/dataset.xlsx) file, it is divided into spreadsheets containing the main parameters for each equipment.
+The only input is the [dataset.xlsx](https://github.com/thiagoneye/project-particulate_transport_simulator/inputs/dataset.xlsx) file, it is divided into spreadsheets containing the main parameters for each equipment.
 
 For each equipment, new lines can be added freely so that new items of that equipment are added, considering only the following restrictions:
 
 - Each silo must be associated with an existing mill, this is possible through the supply parameter.
 - Each scale must be associated with a single and respective production line, this is possible through the ID parameter present in each equipment.
+
+For more details, see the file [equipments](https://github.com/thiagoneye/project-particulate_transport_simulator/equipments.md).
 
 ### ./outputs/
 
