@@ -1,6 +1,6 @@
 ![GitHub](https://img.shields.io/github/license/thiagoneye/project-particulate_transport_simulator)
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/thiagoneye/project-particulate_transport_simulator)
-![Profile views](https://github.com/thiagoneye/project-particulate_transport_simulator/)
+![Profile views](https://github.com/thiagoneye/project-particulate_transport_simulator)
 
 # project-particulate_transport_simulator
 
