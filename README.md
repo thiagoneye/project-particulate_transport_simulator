@@ -31,8 +31,8 @@ The only input is the [dataset.xlsx](https://github.com/thiagoneye/project-parti
 
 For each equipment, new lines can be added freely so that new items of that equipment are added, considering only the following restrictions:
 
-- Each silo must be associated with an existing mill, this is possible through the supply parameter.
-- Each scale must be associated with a single and respective production line, this is possible through the ID parameter present in each equipment.
+- Each silo must be associated with an existing mill, this is possible through the *supply* parameter.
+- Each scale must be associated with a single and respective production line, this is possible through the *ID* parameter present in each equipment.
 
 ### ./outputs/
 
