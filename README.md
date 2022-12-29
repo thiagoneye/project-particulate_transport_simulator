@@ -10,17 +10,17 @@ Simulator for analysis of availability and projection of production in an enviro
 - Transport System (set of piping, threads and geared motors, for particulate transport)
 - Production Lines (particulate processing station for item/plate)
 
+The structure of the manufacturing environment can be seen in the flowchart below.
+
+
 <img src="others/flowchart.png" width="800px">
+
 
 The physical principle used to build the tool is to carry out the mass balance along the equipment sets.
 
 ## Purpose
 
 Serve as a decision-making tool, considering critical scenarios in the production environment.
-
-## Authorship
-
-The particulate transport simulator was developed by [Thiago Rodrigues](https://github.com/thiagoneye/).
 
 ## Files
 
@@ -37,8 +37,17 @@ For each equipment, new lines can be added freely so that new items of that equi
 
 ## Scripts
 
+### main.py
+
 ### preprocessing.py
 
 ### equipments.py
 
-### main.py
+Some particularities that should not be neglected:
+
+- The transport system only supplies one scale at a time.
+- When the system switches the scale to supply, a "reversal" time is required, this time can (and should) be changed in the main.py file, on line 74.
+
+## Authorship
+
+The particulate transport simulator was developed by [Thiago Rodrigues](https://github.com/thiagoneye/).
