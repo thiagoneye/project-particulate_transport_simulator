@@ -10,6 +10,8 @@ Simulator for analysis of availability and projection of production in an enviro
 - Transport System (set of piping, threads and geared motors, for particulate transport)
 - Production Lines (particulate processing station for item/plate)
 
+<img src="others/flowchart.png" width="800px">
+
 The physical principle used to build the tool is to carry out the mass balance along the equipment sets.
 
 ## Purpose
