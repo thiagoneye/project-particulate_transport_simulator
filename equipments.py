@@ -170,7 +170,7 @@ class ProductionLine:
         self.status = 'production'
 
     def production_check(self, idx):
-        if idx == 0 or self.level[idx] == 1:
+        if idx == 0 or self.level[idx] == self.max_level:
             current_level = self.level[idx]
         else:
             current_level = self.level[idx-1]
